@@ -1,0 +1,22 @@
+name: Resume Docker
+
+on:
+  push:
+    branches:
+       - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run build script
+        run: ./build.sh
+   
+      - name: Upload PDF of a resume
+        uses: actions/upload-artifact@v3
+        with:
+           name: resume-pdf
+           path: ./resume/main.pdf
