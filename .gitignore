@@ -1,0 +1,5 @@
+CV/*.aux
+CV/*.log
+CV/*.out
+CV/*.fdb_latexmk
+CV/*.fls

@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean
 WORKDIR /resume
 COPY . .
-CMD ["latexmk", "-pdf", "-interaction=nonstopmode", "resume.tex"]
+CMD ["latexmk", "-pdf", "-interaction=nonstopmode", "CV/resume.tex"]
