@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1750717090 "resume.tex" "resume.pdf" "resume" 1750717091
+["pdflatex"] 1750717090 "resume.tex" "resume.pdf" "resume" 1750717698
   "/etc/texmf/web2c/texmf.cnf" 1750717037 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/root/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000.600pk" 1750717089 23444 c4e269de1a2a6894cf8ffd832c876563 ""
   "/root/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk" 1750717088 54456 d83f0d498c5068f88fe905137ee383af ""
@@ -76,6 +76,6 @@
   "resume.tex" 1750715244 7532 758a4b6c99b13b2aadce21ae1e67c295 ""
   (generated)
   "resume.out"
-  "resume.aux"
   "resume.log"
+  "resume.aux"
   "resume.pdf"
