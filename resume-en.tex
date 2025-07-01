@@ -1,0 +1,109 @@
+\documentclass[10pt]{resume} % Use the resume class
+
+\usepackage[english]{babel} % Use the EB Garamond font
+\usepackage{hyperref}
+\usepackage{etoolbox}
+\patchcmd{\rSubsection}{\par\vspace{0.5em}}{\par\vspace{0.2em}}{}{}
+
+\setlength{\parskip}{5pt}
+\setlength{\itemsep}{4pt}   
+
+%------------------------------------------------
+
+\name{Ivan Mrasov} % Your name to appear at the top
+
+\address{
+  \href{tel:+79027118460}{+7~(902)~711~8460} \\
+  \href{mailto:mrasovir@gmail.com}{mrasovir@gmail.com} \\
+  \href{https://github.com/mrariv}{GitHub} \\
+  \href{https://ru.linkedin.com/in/ivan-mrasov-593703327}{LinkedIn}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{rSection}{Education}
+    
+    \textbf{Higher School of Economics (HSE), Moscow} \hfill \textit{2022-2026} \\ 
+    Bachelor's program in \textbf{Computational Social Sciences}, 3rd year. \\
+    Key courses: Python, Machine Learning, Deep Learning, Econometrics, Statistics. \\
+    \textit{GPA: 8.2 / 10.}
+    
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+%------------------------------------------------
+\begin{rSubsection}{CPM School}{September 2024 - December 2024}{Game Theory Teacher}{Moscow}
+\item Developed and conducted \textbf{15 interactive classes} on game theory for olympiad-level students.
+\item Created a \textbf{library of educational materials} with visualization of key game theory concepts.
+\item Implemented a \textbf{multi-level assessment system} with weekly tests and personalized feedback.
+\end{rSubsection}
+%------------------------------------------------
+
+    \begin{rSubsection}{IND Architects}{June 2024 - August 2024}{Course Assistant for "AI in Architecture"}{Moscow}
+        \item Optimized \textbf{prompt engineering} for Midjourney, Stable Diffusion and Llama 2 (via Hugging Face API), \\ improving relevance of generated images to architectural requirements.
+        \item Developed a \textbf{library of 50 prompts} accounting for architectural styles and model parameters, \\ reducing prompt preparation time for new tasks to 30 minutes (according to student estimates).
+        \item Automated \textbf{feedback analysis} from 40+ course participants using Pandas and NLP.
+    \end{rSubsection}
+
+%------------------------------------------------
+\end{rSection}
+%----------------------------------------------------------------------------------------
+% TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+    \begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+ 
+        Programming Languages & Python, R, C++ \\
+        Databases & SQL, Excel \\
+        Data Analysis Tools & Pandas, NumPy, Scikit-learn, spaCy, NLTK, PyTorch\\ 
+        Data Visualization & Matplotlib, Seaborn, Plotly, Tableau, Power BI \\
+        Languages & English C1, German B2, French A2
+    \end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{VK Hackathon Participation}{}{}{}
+    \item Trained an \textbf{NLP model} (Python, BERT) for semantic analysis of reviews with \textbf{92\% accuracy}.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/mrariv/asl_recognition}{Real-time ASL Recognition Model (PyTorch, OpenCV)}}{}{}{}
+    \item Developed a CNN architecture for classifying 26 ASL gestures with 96\% test set accuracy.
+    \item Implemented a real-time video processing pipeline (30 FPS) using OpenCV.
+    \item Optimized the model for different skin tones and backgrounds.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/mrariv/commute_project}{Analysis of Commute Impact on HSE Students' Quality of Life}}{}{}{}
+    \item Developed a \textbf{parser} and automated contact data collection (Selenium + pyautogui) \\ for \textbf{causal analysis} of commute impact on quality of life.
+    \item Presented research at \textbf{IFTE 2024} conference with visualizations and analytical conclusions.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/mrariv/model_polarization}{Agent-based Model of Political Polarization}}{}{}{}
+    \item Developed an \textbf{agent-based model} with mechanisms of ideological and affective political polarization.
+    \item Visualized agent position changes and model parameter effects (replicating key empirical patterns from literature).
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/mrariv/playlist-manager}{Playlist Organization API Service}}{}{}{}
+    \item Implemented a FastAPI service for adding, tagging, and filtering tracks by genre and tags.
+    \item Configured database using SQLAlchemy: implemented track and favorites models, content filtering.
+    \item Created HTML interface supporting track addition, likes, and API-based filtering.
+\end{rSubsection}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+\end{document}
